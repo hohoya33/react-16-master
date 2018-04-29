@@ -6,5 +6,6 @@ import React, { Component, Fragment } from 'react';
 return strings도 가능
 
 # Portals
+컴포넌트를 부모 컴포넌트(root)의 DOM 트리 바깥에 붙일 때 사용
 리액트는 root id div를 찾아서 마운트함
-portals은 리액트 root 밖에서 render 할 때 사용 (다른 페이지 로딩시 유용 iframe)
+portals은 리액트 root 밖에서 render 할 때 사용 (다른 페이지 로딩시 유용 전체화면 모달팝업, iframe)
